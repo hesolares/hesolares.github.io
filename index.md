@@ -1,0 +1,52 @@
+---
+title       : Developing Data Products Course Project
+subtitle    : 5 page presentation
+author      : Hugo Solares
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+Page 2
+## The Weather Explorer Application
+
+
+--- .class #id 
+
+## What does it do?
+
+It finds the human and economic consequences of weather phenomena. 
+
+--- .class #id 
+
+Page 3
+## This application covers the following years:
+
+
+```r
+mydates <- c("1993", " to ", "2011")
+print(mydates)
+```
+
+```
+## [1] "1993" " to " "2011"
+```
+
+
+--- .class #id 
+
+Page 4
+## What you will be able to see
+
+You will see the impact from diverse weather conditions. You will be able to filter information by State, year and type of weather event. As well as see the economic and population impact of different weather events.
+
+--- .class #id 
+
+Page 5
+## Caution
+
+Please be patient the application may take some time to load on your web browser due to the large dataset on the backend.
